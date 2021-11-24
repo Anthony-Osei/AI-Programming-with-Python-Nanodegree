@@ -88,7 +88,7 @@ def print_results(results_dic, results_stats_dic, model,
         #           by results_stats_dic[key]
         #
         if key[0] == "p":
-            print("%20s: %5.1f" % (key, results_stats[key])) 
+            print(key, ": ", round(results_stats_dic[key],1),"%") 
 
 
     # IF print_incorrect_dogs == True AND there were images incorrectly 
